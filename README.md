@@ -221,8 +221,11 @@ To address class imbalance, both **class weighting** and **SMOTE** were evaluate
 #### Class Weight Results
 
 | Model | Accuracy | Precision | Recall | F1-Score |
+
 | Logistic Regression | 0.8216 | 0.9689 | 0.8190 | 0.8876 |
+
 | Random Forest | 0.8808 | 0.8985 | 0.9712 | 0.9334 |
+
 | XGBoost | 0.8538 | 0.9402 | 0.8866 | 0.9125 |
 
 Random Forest achieved the highest F1-score and recall under the class-weight approach, while Logistic Regression achieved the highest precision.
@@ -251,8 +254,11 @@ The regression task aims to predict student salary in LPA.
 Three linear regression approaches were initially compared using 5-fold cross-validation:
 
 | Model | RMSE | MAE | R² |
+
 | Linear Regression | 4.0518 | 2.8559 | 0.5790 |
+
 | Ridge Regression | 4.0518 | 2.8558 | 0.5790 |
+
 | Lasso Regression | **4.0510** | **2.8509** | **0.5792** |
 
 Lower RMSE and MAE indicate better prediction accuracy, while a higher R² indicates that the model explains a greater proportion of salary variation.
